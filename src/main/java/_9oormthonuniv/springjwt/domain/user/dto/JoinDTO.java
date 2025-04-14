@@ -1,4 +1,4 @@
-package _9oormthonuniv.springjwt.dto;
+package _9oormthonuniv.springjwt.domain.user.dto;
 
 import lombok.Getter;
 import lombok.Setter;

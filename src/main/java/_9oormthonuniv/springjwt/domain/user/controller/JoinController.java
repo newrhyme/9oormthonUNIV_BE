@@ -1,7 +1,7 @@
-package _9oormthonuniv.springjwt.controller;
+package _9oormthonuniv.springjwt.domain.user.controller;
 
-import _9oormthonuniv.springjwt.dto.JoinDTO;
-import _9oormthonuniv.springjwt.service.JoinService;
+import _9oormthonuniv.springjwt.domain.user.dto.JoinDTO;
+import _9oormthonuniv.springjwt.domain.user.service.JoinService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 

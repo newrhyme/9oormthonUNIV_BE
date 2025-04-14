@@ -1,8 +1,8 @@
-package _9oormthonuniv.springjwt.service;
+package _9oormthonuniv.springjwt.domain.user.service;
 
-import _9oormthonuniv.springjwt.dto.JoinDTO;
-import _9oormthonuniv.springjwt.entity.UserEntity;
-import _9oormthonuniv.springjwt.repository.UserRepository;
+import _9oormthonuniv.springjwt.domain.user.dto.JoinDTO;
+import _9oormthonuniv.springjwt.domain.user.entity.UserEntity;
+import _9oormthonuniv.springjwt.domain.user.repository.UserRepository;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 

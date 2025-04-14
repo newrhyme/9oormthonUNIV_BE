@@ -1,6 +1,6 @@
-package _9oormthonuniv.springjwt.controller;
+package _9oormthonuniv.springjwt.domain.post.controller;
 
-import _9oormthonuniv.springjwt.service.AwsS3Service;
+import _9oormthonuniv.springjwt.domain.post.service.AwsS3Service;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

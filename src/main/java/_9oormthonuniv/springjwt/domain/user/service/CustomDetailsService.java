@@ -1,8 +1,8 @@
-package _9oormthonuniv.springjwt.service;
+package _9oormthonuniv.springjwt.domain.user.service;
 
-import _9oormthonuniv.springjwt.dto.CustomUserDetials;
-import _9oormthonuniv.springjwt.entity.UserEntity;
-import _9oormthonuniv.springjwt.repository.UserRepository;
+import _9oormthonuniv.springjwt.domain.user.dto.CustomUserDetials;
+import _9oormthonuniv.springjwt.domain.user.entity.UserEntity;
+import _9oormthonuniv.springjwt.domain.user.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

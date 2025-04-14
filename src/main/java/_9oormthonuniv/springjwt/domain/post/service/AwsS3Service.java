@@ -1,4 +1,4 @@
-package _9oormthonuniv.springjwt.service;
+package _9oormthonuniv.springjwt.domain.post.service;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.CannedAccessControlList;

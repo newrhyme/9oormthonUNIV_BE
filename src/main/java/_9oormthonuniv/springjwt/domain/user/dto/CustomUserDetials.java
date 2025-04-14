@@ -1,6 +1,6 @@
-package _9oormthonuniv.springjwt.dto;
+package _9oormthonuniv.springjwt.domain.user.dto;
 
-import _9oormthonuniv.springjwt.entity.UserEntity;
+import _9oormthonuniv.springjwt.domain.user.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

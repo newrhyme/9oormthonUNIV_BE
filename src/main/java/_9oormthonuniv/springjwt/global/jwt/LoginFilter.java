@@ -1,4 +1,4 @@
-package _9oormthonuniv.springjwt.jwt;
+package _9oormthonuniv.springjwt.global.jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.http.HttpServletRequest;

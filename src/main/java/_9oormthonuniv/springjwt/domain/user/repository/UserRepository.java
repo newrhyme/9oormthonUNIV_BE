@@ -1,7 +1,7 @@
-package _9oormthonuniv.springjwt.repository;
+package _9oormthonuniv.springjwt.domain.user.repository;
 
 
-import _9oormthonuniv.springjwt.entity.UserEntity;
+import _9oormthonuniv.springjwt.domain.user.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<UserEntity, Integer> {
