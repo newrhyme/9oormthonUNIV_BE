@@ -7,11 +7,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class CustomUserDetials implements UserDetails {
+public class CustomUserDetails implements UserDetails {
 
     private final UserEntity userEntity;
 
-    public CustomUserDetials(UserEntity userEntity) {
+    // 생성자 방식으로 초기화
+    public CustomUserDetails(UserEntity userEntity) {
 
         this.userEntity = userEntity;
     }
