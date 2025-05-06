@@ -1,5 +1,6 @@
 package _9oormthonuniv.springjwt.global.config;
 
+import _9oormthonuniv.springjwt.global.jwt.JWTFilter;
 import _9oormthonuniv.springjwt.global.jwt.JWTUtil;
 import _9oormthonuniv.springjwt.global.jwt.LoginFilter;
 import org.springframework.context.annotation.Bean;
@@ -62,6 +63,8 @@ public class SecurityConfig {
                         .requestMatchers("/admin").hasRole("ADMIN")
                         .anyRequest().authenticated()); // 그 외 any request는 authenticated된 사용자만 접근
 
+        http
+                .addFilterBefore(new JWTFilter(jwtUtil), LoginFilter.class);
 
         http
                 .addFilterAt(new LoginFilter(authenticationManager(authenticationConfiguration), jwtUtil), UsernamePasswordAuthenticationFilter.class);
